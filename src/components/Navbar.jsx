@@ -37,6 +37,7 @@ const Navbar = () => {
         {["Services", "Our Work", "About Us", "Inshights", "Contact"].map(
           (item, index) => (
             <a
+              key={index}
               href=""
               className={`text-lg font-light capitalize ${
                 index === 4 && "ml-32"

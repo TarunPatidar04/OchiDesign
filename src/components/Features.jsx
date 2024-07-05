@@ -26,6 +26,7 @@ const Features = () => {
             <h1 className="absolute flex text-[#CDEA68] overflow-hidden -translate-x-1/2 top-1/2 -translate-y-1/2 z-[9]  text-6xl left-full tracking-tighter font-['Founders_Grotesk_X-Condensed']">
               {"FYDE".split("").map((item, index) => (
                 <motion.span
+                  key={index}
                   initial={{ y: "100%" }}
                   animate={cards[0]}
                   transition={{
@@ -54,6 +55,7 @@ const Features = () => {
             <h1 className="absolute text-[#CDEA68] flex overflow-hidden  translate-x-1/2 top-1/2 -translate-y-1/2 z-[9] text-6xl right-full tracking-tighter font-['Founders_Grotesk_X-Condensed']">
               {"VISE".split("").map((item, index) => (
                 <motion.span
+                  key={index}
                   initial={{ y: "100%" }}
                   animate={cards[1]}
                   transition={{
