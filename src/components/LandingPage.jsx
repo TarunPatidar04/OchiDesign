@@ -19,8 +19,13 @@ const LandingPage = () => {
                   initial={{ width: 0 }}
                   animate={{ width: "9vw" }}
                   transition={{ ease: [0.76, 0, 0.24, 1], duration: 1 }}
-                  className="mr-[1vw] rounded-md w-[9vw] h-[5vw] bg-red-300"
-                ></motion.div>
+                  className="mr-[1vw] rounded-md w-[9vw] h-[5vw] bg-zinc-800"
+                >
+                  <img className=" w-[9vw] h-[3vw]"
+                    src="https://mir-s3-cdn-cf.behance.net/f55d51987a772430fe706840f130ed95/3642c5dd-75ca-4b03-a2b6-0c8abceff5ce_rwc_-1x83x1973x265x1973.png?h=4bcec81fb523c9427db35074fae3575a"
+                    alt=""
+                  />
+                </motion.div>
               )}
               <h1 className="uppercase text-[7.5vw] leading-[6.5vw] tracking-tighter font-['Founders_Grotesk_X-Condensed'] font-medium">
                 {item}
